@@ -1,0 +1,24 @@
+{
+  "name": "testrepo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "rm -rf ./docs/common/demo-*.vue && vitepress dev docs --open",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yue7872/vitepress-demo.git"
+  },
+  "keywords": [],
+  "author": "blairyue",
+  "license": "ISC",
+  "devDependencies": {
+    "@ruabick/md-demo-plugins": "^0.2.9",
+    "@ruabick/vitepress-demo-block": "^0.2.9",
+    "vitepress": "^1.0.0-alpha.23",
+    "vue": "^3.2.41"
+  }
+}

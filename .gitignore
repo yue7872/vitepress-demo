@@ -1,0 +1,9 @@
+# 依赖
+node_modules
+
+# 构建产物
+docs/.vitepress/dist
+
+# 临时文件
+docs/common/demo-*.vue
+docs/common/dist
